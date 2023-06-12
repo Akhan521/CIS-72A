@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+/*
+    Author: Aamir Khan
+    Personal styles for my Final Project.
+*/
+
+body {
+    font-family: "Georgia", serif;
+    background:#DDC1A7;
+    color: #5C4E4E;
+}
+
+h1, h2 {
+    font-family: "Times New Roman", serif;
+    color: #372A28;
+}
+
+nav {
+    margin-left: -5px;
+    padding-left: 15px;
+    height: 200px;
+    border: solid;
+    border-color: #372A28;
+    border-style: double;
+    color: #18122B;
+    background-image: url(nav-texture.jpg);
+    background-size: contain;
+}
+
+nav a:hover{
+    background-color: floralwhite;
+    color: #745E4D;
+}
+
+a:hover {
+    background-color: blanchedalmond;
+}
+
+ul, ol, legend, a {
+    color: #3D3D3D;
+}
+
+#main {
+    line-height: 1.5;
+}
+
+header {
+    margin-left: -10px;
+    margin-top: -10px;
+}
+
+.add-border {
+    border: solid;
+    border-color: #372A28;
+}
+
+.shadow {
+    box-shadow: 5px 5px #888888;
+}
